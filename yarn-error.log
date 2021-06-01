@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add zustan
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\wamp64\bin\php\php7.3.12;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Tilly\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Tilly\AppData\Local\Programs\Python\Python38-32\;C:\Users\Tilly\AppData\Local\Microsoft\WindowsApps;C:\Users\Tilly\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tilly\.android;C:\Users\Tilly\AppData\Local\Yarn\bin;C:\Users\Tilly\AppData\Roaming\Composer\vendor\bin;C:\Users\Tilly\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.8;C:\Users\Tilly\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.4\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/zustan: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
